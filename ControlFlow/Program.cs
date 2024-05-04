@@ -39,7 +39,18 @@ switch(category)
         Console.ReadLine();
         return;
 }
-Console.ReadLine();
+string input = null;
+while(input == null || !input.ToLower().StartsWith("y"))
+{
+    Console.WriteLine("Your cost will be in the range of £20, enter y to continue or n to exit.");
+    input = Console.ReadLine();
+    if(input != null && input.ToLower().StartsWith("n"))
+    {
+        return;
+    }
+}
+
+
 
 bool IsEligibleForAutoApply(int squareMetres)
 {
