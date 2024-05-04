@@ -17,7 +17,6 @@ Console.WriteLine("4 - Art");
 Console.WriteLine("5 - Other");
 int category = int.Parse(Console.ReadLine());
 
-// interesting note: switch statement does not work for float and double
 switch(category)
 {
     case 1:
