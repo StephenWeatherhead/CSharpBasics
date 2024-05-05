@@ -50,7 +50,12 @@ while(input == null || !input.ToLower().StartsWith("y"))
     }
 }
 
-
+for(int i = 1; i <= squareMetres; i++)
+{
+    Console.WriteLine($"A{i} booked.");
+}
+Console.WriteLine("Booking complete.");
+Console.ReadLine();
 
 bool IsEligibleForAutoApply(int squareMetres)
 {
