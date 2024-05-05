@@ -26,4 +26,9 @@ int myBinaryLiteral = 0b_0010_1010;
 nint myNativeInt;
 nuint myNativeUnsignedInt;
 
+// float types
+float myFloat = 134.45E-2f; // 4 bytes
+double myDouble = 0.42e2d; // 8 bytes
+decimal myDecimal = 1.5E6m; // 16 bytes
+
 Console.ReadLine();
