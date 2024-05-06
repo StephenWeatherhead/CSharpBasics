@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBootSale", "ControlFlow\CarBootSale.csproj", "{A0DC4C28-E027-4A31-892F-A1757DE7FD79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheThirdEye", "TheThirdEye\TheThirdEye.csproj", "{22BB6019-D063-4458-8F56-306B61361FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A0DC4C28-E027-4A31-892F-A1757DE7FD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DC4C28-E027-4A31-892F-A1757DE7FD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0DC4C28-E027-4A31-892F-A1757DE7FD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BB6019-D063-4458-8F56-306B61361FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BB6019-D063-4458-8F56-306B61361FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BB6019-D063-4458-8F56-306B61361FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BB6019-D063-4458-8F56-306B61361FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
