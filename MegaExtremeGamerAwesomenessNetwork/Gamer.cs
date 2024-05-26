@@ -6,22 +6,24 @@ using System.Threading.Tasks;
 
 namespace MegaExtremeGamerAwesomenessNetwork
 {
-    internal class Gamer
+    // primary constructor - creates and sets private fields
+    internal class Gamer(string gamerTag, DateTime cakeDay)
     {
-        public Guid megId;
-        public string gamerTag;
+        private int kills;
+        private int deaths;
 
-        public int kills;
-        public int deaths;
-
-        public DateTime cakeDay;
-
-        public void Kill()
+        public void Died()
         {
-            Kill(1);
+            deaths++;
+            Console.WriteLine($"{gamerTag} died!");
         }
 
-        public void Kill(int numberOfKills)
+        public void MakeAKill()
+        {
+            MakeAKill(1);
+        }
+
+        public void MakeAKill(int numberOfKills)
         {
             kills += numberOfKills;
             Console.WriteLine($"{gamerTag} made {numberOfKills} kill(s)!");
@@ -29,14 +31,14 @@ namespace MegaExtremeGamerAwesomenessNetwork
 
         public double CalculateKD()
         {
-            double ratio = (double)kills / (double)(deaths + 1);
+            double ratio = (double)kills / (double)(deaths == 0 ? 1 : deaths);
             Console.WriteLine($"{gamerTag} has a K/D ratio of {ratio}");
             return ratio;
         }
 
         public void PrintGamerDeets()
         {
-            Console.WriteLine($"MegId: {megId} Tag: {gamerTag}");
+            Console.WriteLine($"Tag: {gamerTag}");
             Console.WriteLine($"Kills: {kills} Deaths: {deaths}");
             Console.WriteLine($"Cake Day: {cakeDay.ToShortDateString()}");
         }
