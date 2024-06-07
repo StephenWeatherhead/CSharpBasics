@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBootSale", "ControlFlow\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheThirdEye", "TheThirdEye\TheThirdEye.csproj", "{22BB6019-D063-4458-8F56-306B61361FAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaExtremeGamerAwesomenessNetwork", "MegaExtremeGamerAwesomenessNetwork\MegaExtremeGamerAwesomenessNetwork.csproj", "{EBDB0AE4-15A3-4539-9A7C-1EB6402D12F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MegaExtremeGamerAwesomenessNetwork", "MegaExtremeGamerAwesomenessNetwork\MegaExtremeGamerAwesomenessNetwork.csproj", "{EBDB0AE4-15A3-4539-9A7C-1EB6402D12F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellGame", "ShellGame\ShellGame.csproj", "{1AB674F3-D357-4576-82DF-A47DA24EC2BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EBDB0AE4-15A3-4539-9A7C-1EB6402D12F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDB0AE4-15A3-4539-9A7C-1EB6402D12F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDB0AE4-15A3-4539-9A7C-1EB6402D12F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB674F3-D357-4576-82DF-A47DA24EC2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB674F3-D357-4576-82DF-A47DA24EC2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB674F3-D357-4576-82DF-A47DA24EC2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB674F3-D357-4576-82DF-A47DA24EC2BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
