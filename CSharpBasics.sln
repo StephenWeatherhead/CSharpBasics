@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheThirdEye", "TheThirdEye\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MegaExtremeGamerAwesomenessNetwork", "MegaExtremeGamerAwesomenessNetwork\MegaExtremeGamerAwesomenessNetwork.csproj", "{EBDB0AE4-15A3-4539-9A7C-1EB6402D12F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellGame", "ShellGame\ShellGame.csproj", "{1AB674F3-D357-4576-82DF-A47DA24EC2BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellGame", "ShellGame\ShellGame.csproj", "{1AB674F3-D357-4576-82DF-A47DA24EC2BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutritionInfo", "NutritionInfo\NutritionInfo.csproj", "{2DEB8F86-E679-42B1-AB0D-034343B2953D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1AB674F3-D357-4576-82DF-A47DA24EC2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB674F3-D357-4576-82DF-A47DA24EC2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB674F3-D357-4576-82DF-A47DA24EC2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEB8F86-E679-42B1-AB0D-034343B2953D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEB8F86-E679-42B1-AB0D-034343B2953D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEB8F86-E679-42B1-AB0D-034343B2953D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEB8F86-E679-42B1-AB0D-034343B2953D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
