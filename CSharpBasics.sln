@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellGame", "ShellGame\Shel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutritionInfo", "NutritionInfo\NutritionInfo.csproj", "{2DEB8F86-E679-42B1-AB0D-034343B2953D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingList", "ShoppingList\ShoppingList.csproj", "{4A507C9D-853D-4A97-87D6-09F633AB7210}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingList", "ShoppingList\ShoppingList.csproj", "{4A507C9D-853D-4A97-87D6-09F633AB7210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetApp", "BudgetApp\BudgetApp.csproj", "{5803AA0E-035F-4C05-94C8-7029F2A84741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4A507C9D-853D-4A97-87D6-09F633AB7210}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A507C9D-853D-4A97-87D6-09F633AB7210}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A507C9D-853D-4A97-87D6-09F633AB7210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5803AA0E-035F-4C05-94C8-7029F2A84741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5803AA0E-035F-4C05-94C8-7029F2A84741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5803AA0E-035F-4C05-94C8-7029F2A84741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5803AA0E-035F-4C05-94C8-7029F2A84741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
